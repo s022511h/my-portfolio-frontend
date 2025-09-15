@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext", 
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "preserve",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src/**/*"
+  ],
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}
